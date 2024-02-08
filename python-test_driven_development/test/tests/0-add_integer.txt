@@ -1,0 +1,18 @@
+Tests for task 0
+
+
+Adding 2 integers
+>>> add_integer(1, 2)
+3
+
+Subtracting 2 integers
+>>> add_integer(100, -2)
+98
+
+Adding 2 integers (with b = 98)
+>>> add_integer(2)
+100
+
+Subtracting 1 integer and 1 float
+>>> add_integer(100.3, -2)
+98
