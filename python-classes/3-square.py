@@ -12,8 +12,7 @@ class Square:
         Square is a class type for create a square"""
 
         """Args:
-        param1 (size): the first parameters
-        param2 (area): the second parameters for calculate the area"""
+        param1 (size): the first parameters"""
 
         if type(size) != int:
             raise TypeError("size must be an integer")
