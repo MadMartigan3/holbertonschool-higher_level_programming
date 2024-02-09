@@ -6,7 +6,6 @@
 class Square:
     """define a square"""
     def __init__(self, size=0):
-
         """The format of parameter is:
         name (square): description
         Square is a class type for create a square"""
