@@ -13,7 +13,7 @@ class Square:
         """Args:
         param1 (size): the first parameters"""
 
-        if type(size) != int:
+        if not isinstance(size, int):
             raise TypeError("size must be an integer")
         else:
             if size < 0:
