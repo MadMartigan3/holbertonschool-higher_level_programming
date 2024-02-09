@@ -4,6 +4,7 @@
 
 
 class Square:
+    """define a square"""
     def __init__(self, size=0):
 
         """The format of parameter is:
