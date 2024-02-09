@@ -2,6 +2,7 @@
 
 """Create an empty class square"""
 
+
 class Square:
     """Create a private attribute size"""
     def __init__(self, size):

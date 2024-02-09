@@ -2,19 +2,20 @@
 
 """Create a class Square"""
 
+
 class Square:
     def __init__(self, size=0):
         self.__size = size
-        
+
     """The format of parameter is:
         name (square): description
         Square is a class type for create a square"""
 
     """Args:
         param1 (size): the first parameters
-        param2 (area): the second parameters for calculate the area of the square
-        param3 (my_print): the third parameters for print in stdout the square"""
-    
+        param2 (area): the second parameters for calculate the area
+        param3 (my_print): the third parameters for print in stdout"""
+
     @property
     def size(self):
         return self.__size
@@ -30,7 +31,7 @@ class Square:
 
     def area(self):
         return self.__size * self.__size
-    
+
     def my_print(self):
         if self.__size == 0:
             print()
