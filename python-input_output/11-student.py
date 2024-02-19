@@ -9,7 +9,7 @@ class Student:
         self.first_name = first_name
         self.last_name = last_name
         self.age = age
-    
+
     def to_json(self, attrs=None):
         """Representation json of student class"""
         if type(attrs) is list:
@@ -21,7 +21,7 @@ class Student:
             return new_dict
         else:
             return self.__dict__
-    
+
     def reload_from_json(self, json):
         """function that replace all attr"""
         self.__dict__.update(json)
