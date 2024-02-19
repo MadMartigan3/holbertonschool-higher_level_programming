@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-"""Create a function that returns a list of 
+"""Create a function that returns a list of
 lists of integers representing the Pascal’s triangle """
 
 
